@@ -1,5 +1,3 @@
----
-
 # **PyDOS**  
 _A playful MS-DOS parody written in Python!_
 
