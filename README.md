@@ -1,18 +1,40 @@
-MS-DOS parody in Python!
-[![pydor.png](https://i.postimg.cc/DZMKGqy5/pydor.png)](https://postimg.cc/r0xbXR4t)
+---
 
------
+# **PyDOS**  
+_A playful MS-DOS parody written in Python!_
 
-Comands:
-move - Move a folder, object, or file.
-delete - delete a folder, object, or file.
-notepad - opens the notepad.
-browser - opens the browser.
-dir - shows all files in the directory.
-copy - copies the file to another location.
-ipconfig - retrieves the current IP address, gateway, and backlight.
-finger - getting information about users.
-attrib - changes the file attributes.
-cls - clears the console screen.
-cmd - opens the command prompt.
-rename - changes the file name.
+![PyDOS Preview](https://i.postimg.cc/DZMKGqy5/pydor.png)  
+*Click on the image to view full size.*
+
+---
+
+## **Available Commands**
+
+Below is a list of commands you can use in PyDOS. Each command mimics classic MS-DOS functionality with a modern twist.
+
+| **Command**   | **Description**                                                                 |
+|---------------|---------------------------------------------------------------------------------|
+| `move`        | Move a folder, object, or file to a new location.                               |
+| `delete`      | Delete a folder, object, or file.                                              |
+| `notepad`     | Open the notepad application for text editing.                                 |
+| `browser`     | Launch the browser to explore the web.                                         |
+| `dir`         | Display all files and folders in the current directory.                        |
+| `copy`        | Copy a file or folder to another location.                                     |
+| `ipconfig`    | Retrieve network information, including IP address, gateway, and subnet mask.  |
+| `finger`      | Get detailed information about users on the system.                            |
+| `attrib`      | Change or view file attributes (e.g., read-only, hidden).                      |
+| `cls`         | Clear the console screen for a fresh start.                                    |
+| `cmd`         | Open the command prompt for advanced operations.                               |
+| `rename`      | Rename a file or folder to a new name.                                         |
+
+
+---
+
+## **Example Usage (Example IP)**
+
+```plaintext
+C:\> ipconfig
+IP Address: 192.168.1.10
+Gateway: 192.168.1.1
+Subnet Mask: 255.255.255.0
+```
