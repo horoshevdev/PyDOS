@@ -36,3 +36,56 @@ IP Address: 192.168.1.10
 Gateway: 192.168.1.1
 Subnet Mask: 255.255.255.0
 ```
+
+----
+
+## Translation Example
+
+```json
+"en": {
+        "welcome": "Welcome to PyDOS!",
+        "prompt": "Enter a PyDOS command >>> ",
+        "help": {
+            "move": "move - Move a folder, object, or file.",
+            "delete": "delete - Delete a folder, object, or file.",
+            "notepad": "notepad - Opens Notepad.",
+            "browser": "browser - Opens the browser.",
+            "dir": "dir - Shows all files in the directory.",
+            "copy": "copy - Copies a file to another location.",
+            "ipconfig": "ipconfig - Retrieves the current IP address, gateway, and subnet.",
+            "finger": "finger - Retrieves information about users.",
+            "attrib": "attrib - Changes file attributes.",
+            "cls": "cls - Clears the console screen.",
+            "cmd": "cmd - Opens the command prompt.",
+            "rename": "rename - Renames a file.",
+        },
+        "move": {
+            "source": "Enter the file name to move: ",
+            "current_dir": "Enter the current directory of the file: ",
+            "target_dir": "Enter the target directory: ",
+            "success": "File {} successfully moved to {}",
+            "error_not_found": "Error: File or directory not found.",
+            "error_permission": "Error: Insufficient permissions to move the file.",
+        },
+        "delete": {
+            "path": "Enter the file path: ",
+            "name": "Enter the file name: ",
+            "success": "File successfully deleted.",
+            "error_not_found": "File not found.",
+        },
+        "notepad": "Opening Notepad...",
+        "browser": "Opening the browser...",
+        "dir": "List of files in the current directory:",
+        "copy": "Copying file...",
+        "ipconfig": "Network information:",
+        "finger": "Enter the username: ",
+        "attrib": "Invalid ATTRIB command format. Allowed commands: '+r', '-r', '+h', '-h'.",
+        "cls": "Clearing the screen...",
+        "cmd": "Opening the command prompt...",
+        "rename": {
+            "old_name": "Enter the old file name: ",
+            "new_name": "Enter the new file name: ",
+            "success": "File {} successfully renamed to {}.",
+            "error_not_found": "File not found.",
+        },
+```
