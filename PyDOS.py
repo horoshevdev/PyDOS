@@ -1,8 +1,15 @@
 import tkinter as tk
 import os
 import time
-import shutil
 import subprocess
+
+time.sleep(1)
+print("Установка зависимостей/Installing dependences...")
+print("Пожалуйста подождите/Please wait...")
+subprocess.run(['pip', 'install', 'colorama'])
+subprocess.run(['python.exe', '-m', 'pip', 'install', '--upgrade', 'pip'])
+
+import shutil
 import webbrowser
 from os import listdir
 from os.path import isfile, join
