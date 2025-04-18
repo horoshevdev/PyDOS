@@ -3,6 +3,7 @@ _A playful MS-DOS parody written in Python!_
 
 ![PyDOS Preview](https://i.postimg.cc/DZMKGqy5/pydor.png)  
 *Click on the image to view full size.*
+![ExpProj](https://img.shields.io/badge/Experimental%20Project--informational?logo=python&style=social&logoColor=000000&color=666666&labelColor=999999)
 
 ---
 
