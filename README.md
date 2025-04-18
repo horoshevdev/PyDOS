@@ -39,7 +39,7 @@ Subnet Mask: 255.255.255.0
 
 ----
 ### ***Tested on:***
-- ![Ubuntu](https://img.shields.io/badge/Ubuntu--informational?logo=Ubuntu&style=social&logoColor=ff7300&color=666666&labelColor=999999), ![Kubuntu](https://img.shields.io/badge/Ubuntu--informational?logo=Kubuntu&style=social&logoColor=00b7ff&color=666666&labelColor=999999)
+- ![Ubuntu](https://img.shields.io/badge/Ubuntu--informational?logo=Ubuntu&style=social&logoColor=ff7300&color=666666&labelColor=999999), ![Kubuntu](https://img.shields.io/badge/Kubuntu--informational?logo=Kubuntu&style=social&logoColor=00b7ff&color=666666&labelColor=999999)
 ----
 
 ## Translation Example
